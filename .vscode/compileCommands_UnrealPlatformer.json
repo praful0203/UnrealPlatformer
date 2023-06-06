@@ -16,7 +16,7 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformerKit.Build.cs",
+		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformer.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
 			"@F:\\UnrealProjects\\UnrealPlatformer\\.vscode\\compileCommands_UnrealPlatformer\\UnrealPlatformer.249.rsp"
@@ -24,7 +24,7 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformerKit.cpp",
+		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformer.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
 			"@F:\\UnrealProjects\\UnrealPlatformer\\.vscode\\compileCommands_UnrealPlatformer\\UnrealPlatformer.249.rsp"
@@ -32,7 +32,7 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
 	},
 	{
-		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformerKit.h",
+		"file": "F:\\UnrealProjects\\UnrealPlatformer\\Source\\UnrealPlatformer\\UnrealPlatformer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
 			"@F:\\UnrealProjects\\UnrealPlatformer\\.vscode\\compileCommands_UnrealPlatformer\\UnrealPlatformer.249.rsp"

@@ -82,10 +82,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPlatformerKitEditor (Debug)",
+			"name": "Launch UnrealPlatformerEditor (Debug)",
 			"request": "launch",
 			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
-			"preLaunchTask": "UnrealPlatformerKitEditor Win64 Debug Build",
+			"preLaunchTask": "UnrealPlatformerEditor Win64 Debug Build",
 			"args": [
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject"
 			],
@@ -99,10 +99,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPlatformerKitEditor (DebugGame)",
+			"name": "Launch UnrealPlatformerEditor (DebugGame)",
 			"request": "launch",
 			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
-			"preLaunchTask": "UnrealPlatformerKitEditor Win64 DebugGame Build",
+			"preLaunchTask": "UnrealPlatformerEditor Win64 DebugGame Build",
 			"args": [
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject"
 			],
@@ -116,10 +116,10 @@
 			}
 		},
 		{
-			"name": "Launch UnrealPlatformerKitEditor (Development)",
+			"name": "Launch UnrealPlatformerEditor (Development)",
 			"request": "launch",
 			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
-			"preLaunchTask": "UnrealPlatformerKitEditor Win64 Development Build",
+			"preLaunchTask": "UnrealPlatformerEditor Win64 Development Build",
 			"args": [
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject"
 			],

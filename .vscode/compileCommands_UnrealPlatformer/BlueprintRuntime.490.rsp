@@ -1,5 +1,5 @@
 /FI "C:\Program Files\Epic Games\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Development\BlueprintRuntime\Definitions.BlueprintRuntime.h" 
-/FI "F:\UnrealProjects\UnrealPlatformer\Intermediate\Build\Win64\UnrealPlatformerKitEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h" 
+/FI "F:\UnrealProjects\UnrealPlatformer\Intermediate\Build\Win64\UnrealPlatformerEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Source" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Source\Runtime\BlueprintRuntime\Private" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core\UHT" 

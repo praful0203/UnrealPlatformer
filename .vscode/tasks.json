@@ -542,11 +542,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Debug Build",
+			"label": "UnrealPlatformerEditor Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Debug",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -559,11 +559,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Debug Rebuild",
+			"label": "UnrealPlatformerEditor Win64 Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Debug",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -571,7 +571,7 @@
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPlatformerKitEditor Win64 Debug Clean"
+				"UnrealPlatformerEditor Win64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -579,11 +579,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Debug Clean",
+			"label": "UnrealPlatformerEditor Win64 Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Debug",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -596,11 +596,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 DebugGame Build",
+			"label": "UnrealPlatformerEditor Win64 DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"DebugGame",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -613,11 +613,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 DebugGame Rebuild",
+			"label": "UnrealPlatformerEditor Win64 DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"DebugGame",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -625,7 +625,7 @@
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPlatformerKitEditor Win64 DebugGame Clean"
+				"UnrealPlatformerEditor Win64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -633,11 +633,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 DebugGame Clean",
+			"label": "UnrealPlatformerEditor Win64 DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"DebugGame",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -650,11 +650,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Development Build",
+			"label": "UnrealPlatformerEditor Win64 Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Development",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -667,11 +667,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Development Rebuild",
+			"label": "UnrealPlatformerEditor Win64 Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Development",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
@@ -679,7 +679,7 @@
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"UnrealPlatformerKitEditor Win64 Development Clean"
+				"UnrealPlatformerEditor Win64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -687,11 +687,11 @@
 			}
 		},
 		{
-			"label": "UnrealPlatformerKitEditor Win64 Development Clean",
+			"label": "UnrealPlatformerEditor Win64 Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"UnrealPlatformerKitEditor",
+				"UnrealPlatformerEditor",
 				"Win64",
 				"Development",
 				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",

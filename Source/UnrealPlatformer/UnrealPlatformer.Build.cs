@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class UnrealPlatformerKit : ModuleRules
+public class UnrealPlatformer : ModuleRules
 {
-	public UnrealPlatformerKit(ReadOnlyTargetRules Target) : base(Target)
+	public UnrealPlatformer(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

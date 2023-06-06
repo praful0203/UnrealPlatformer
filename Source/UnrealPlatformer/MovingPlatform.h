@@ -7,7 +7,7 @@
 #include "MovingPlatform.generated.h"
 
 UCLASS()
-class UnrealPlatformerKIT_API AMovingPlatform : public AActor
+class UNREALPLATFORMER_API AMovingPlatform : public AActor
 {
 	GENERATED_BODY()
 

@@ -1,5 +1,5 @@
 /FI "C:\Program Files\Epic Games\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Development\LauncherServices\Definitions.LauncherServices.h" 
-/FI "F:\UnrealProjects\UnrealPlatformer\Intermediate\Build\Win64\UnrealPlatformerKitEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h" 
+/FI "F:\UnrealProjects\UnrealPlatformer\Intermediate\Build\Win64\UnrealPlatformerEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Source" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Source\Developer\LauncherServices\Private" 
 /I "C:\Program Files\Epic Games\UE_5.1\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT" 
