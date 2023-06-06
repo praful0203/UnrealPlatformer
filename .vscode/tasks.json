@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UnrealPlatformer Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"Win64",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Test",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformer HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformer HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformer",
+				"HoloLens",
+				"Shipping",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformerKitEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Debug",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformerKitEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealPlatformerKitEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "UnrealPlatformerKitEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealPlatformerKitEditor",
+				"Win64",
+				"Development",
+				"F:\\UnrealProjects\\UnrealPlatformer\\UnrealPlatformer.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
